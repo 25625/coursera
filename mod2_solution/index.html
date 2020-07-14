@@ -8,6 +8,8 @@
         background-color:black;
         color:white;
       }
+      @media only screen and (orientation: landscape)
+      {
       h2{
         text-align:center;
       }
@@ -15,11 +17,13 @@
         float:left;
         background-color: gray;
         color: white;
-        width: 300px;
+        width: 30%;
+        height: 16em;
         padding:5px;
         margin:2px;
         border:5px solid white;
         text-align:left;
+        overflow:auto;
       }
       .heading{
         text-align:center;
@@ -31,6 +35,34 @@
         margin-top:0px;
         border:5px solid white;
       }
+    }
+    @media only screen and (orientation: portrait)
+    {
+      h2{
+        text-align:center;
+      }
+      .first {
+        background-color: gray;
+        color: white;
+        width: 30%;
+        height: 16em;
+        padding:5px;
+        margin:2px;
+        border:5px solid white;
+        text-align:left;
+        overflow:auto;
+      }
+      .heading{
+        text-align:center;
+        background-color: red;
+        color: white;
+        width: 5em;
+        padding:5px;
+        margin-right:0px;
+        margin-top:0px;
+        border:5px solid white;
+      }
+    }
     </style>
   </head>
   <body>
