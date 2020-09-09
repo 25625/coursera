@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="MyFirstApp">
+<head>
+	<script type="text/javascript"src="angular.min.js"></script>
+	<script type="text/javascript"src="app.js"></script>
+	<title>Hello Angular js</title>
+</head>
+<body>
+	<h1>Hello every </h1>
+	<div ng-controller="Control">
+	<input type="text"	ng-model="name"><br>
+	{{name}}<br>
+	<div>
+	<button ng-click="hello()">Check If Too Much</button><br>
+	{{hello()}}<br>
+	{{message}}
+</div>
+	</div>
+</body>
+</html>
